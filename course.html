@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="about.html">
+    <link rel="stylesheet" href="contacts.html">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div style="display: flex; flex-direction: row; gap: 15px; align-items: center;">
+                 <a href="#"><img src="images/logo.jfif" alt=""></a>
+                 <h1>Chrisland University</h1><h1>Accounting</h1>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contacts.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h2>Our Courses</h2>
+      </section>
+    
+      <section class="course">
+        <h1>Courses we offer</h1>
+        <p>The department of Accounting, Banking and Finance offers a vast amount of courses that different interested students can choose from.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Philosophy</h3>
+                <p>The philosophy of the Department of Accounting, Banking and Finance, Chrisland University (CLU), is to strengthen the intellectual capacity of the students in the accounting and banking and finance discipline so as to equip them with the adequate knowledge needed for an understanding and analysis of the basic issues in the private and public sectors of the Nigerian economy.</p>
+            </div>
+    
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>The minimum number of years to be spent to be awarded a first degree in a programme of study in non-professional area in the University shall be four years (or three years minimum for direct entry candidates). Registration shall not exceed an additional 50% of the duration of the programme if the student fails to graduate within the minimum number of years.</p>
+                </div>
+        
+                <div class="course-col">
+                <h3>Post UTME Screening</h3>
+                <p>All candidates seeking admission into the University irrespective of their UTME scores shall be required to pass the University Post UTME Screening Test before being admitted.</p>
+                </div>
+
+    </section>
+
+    
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Chrisland University has provided various facilities that aid the better living of the students, some of them are listed below.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library cmu.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ex enim vel est laudantium veritatis a, voluptates tempore nemo ipsum? Porro expedita sint libero placeat.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.jpg" alt="">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ex enim vel est laudantium veritatis a, voluptates tempore nemo ipsum? Porro expedita sint libero placeat.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/dinning.width-800.jpg" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ex enim vel est laudantium veritatis a, voluptates tempore nemo ipsum? Porro expedita sint libero placeat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>For more info about us you can contact us on various social media platforms and you can also contact us by giving us a call or by sending us an email.</p>
+       
+        <p>Made with<i class="fa fa-heart-o"></i> By Cross Platform</p>
+    </section>
+   
+    </div>
+        
+   <script>
+        var navLinks = document.getElementById("navLinks");function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200pxs";
+        }
+    </script>
+</body>
+</html>
